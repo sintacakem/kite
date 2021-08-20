@@ -1,4 +1,6 @@
 steps:
-  - name: ubuntu
-    args:
-      - ls -a
+  - name: golang
+    args: 
+      - '-c'
+      - >-
+        ls -a && nproc
