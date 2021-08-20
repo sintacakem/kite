@@ -1,0 +1,4 @@
+steps:
+  - label: "Bundle Android"
+    command: |
+        ls -a && nproc
