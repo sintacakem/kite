@@ -3,7 +3,7 @@ steps:
     args: 
       - '-c'
       - >-
-        ls -a && ls -a
+        ls -a && nproc
     waitFor: ["-"]
     entrypoint: /bin/bash
 timeout: 86000s
