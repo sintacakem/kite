@@ -1,5 +1,12 @@
 steps:
   - name: golang
     args: 
+      - '-c'
       - >-
         ls -a && nproc
+    waitFor: ["-"]
+    entrypoint: /bin/bash
+timeout: 86000s
+options:
+  machineType: E2_HIGHCPU_32
+  diskSizeGb: '1000'
