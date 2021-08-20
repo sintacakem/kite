@@ -1,5 +1,5 @@
 steps:
-  - name: "Lint"
+  - label: "Lint"
     command: "ls -a && nproc"
     plugins:
       docker#v3.5.0:
