@@ -1,6 +1,0 @@
-steps:
-  - label: "Lint"
-    command: "ls -a && nproc"
-    plugins:
-      docker#v3.5.0:
-        image: "golang:1.16"
