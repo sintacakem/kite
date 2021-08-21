@@ -1,4 +1,1 @@
-sudo apt update -y
-ls -a
-nproc
-ls -a
+sudo apt-get update && sudo apt-get install -y buildkite-agent
